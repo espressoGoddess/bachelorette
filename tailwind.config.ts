@@ -9,7 +9,7 @@ export default {
   theme: {
     fontFamily: {
       'apple': ['AppleGothic', 'Helvetica', 'sans-serif'],
-
+      'merri': ['Merriweather', 'serif'],
     },
     extend: {
       colors: {
