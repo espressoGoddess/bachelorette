@@ -23,32 +23,32 @@ export default function RootLayout({
             </div>
             <ul className="flex flew-row justify-around mx-auto max-w-3xl text-xl pb-4">
               <li>
-                <Link className="py-6" href="">
+                <Link className="py-6" href="/">
                   home
                 </Link>
               </li>
               <li>
-                <Link className="py-6" href="">
+                <Link className="py-6" href="/the-vibe">
                   the vibe
                 </Link>
               </li>
               <li>
-                <Link className="py-6" href="">
+                <Link className="py-6" href="/getting-there">
                   getting there
                 </Link>
               </li>
               <li>
-                <Link className="py-6" href="">
+                <Link className="py-6" href="/itinerary">
                   itinerary
                 </Link>
               </li>
               <li>
-                <Link className="py-6" href="">
+                <Link className="py-6" href="/packing-list">
                   packing list
                 </Link>
               </li>
               <li>
-                <Link className="py-6" href="">
+                <Link className="py-6" href="/rsvp">
                   RSVP
                 </Link>
               </li>
