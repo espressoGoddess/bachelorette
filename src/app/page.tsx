@@ -6,6 +6,20 @@ const gMapsUrl =
 export default function Home() {
   return (
     <div className="mt-6 flex flex-col justify-center">
+      <div className="max-w-4xl mx-auto bg-gray-50 rounded-lg shadow-lg p-4">
+        <h3 className="text-2xl font-bold mb-4 text-center">
+          Add your fav songs🎶
+        </h3>
+        <iframe
+          src="https://open.spotify.com/embed/playlist/1au5ZuE4V7OrbsiR6zRBOS?utm_source=generator"
+          width="100%"
+          height="150"
+          allow="encrypted-media"
+          className="rounded-lg"
+          title="Bachelorette Playlist"
+        ></iframe>
+      </div>
+
       <div className="flex items-center space-x-4">
         <CalendarDropdown />
         <p className="text-lg text-center md:text-left">
