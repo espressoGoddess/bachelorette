@@ -1,6 +1,8 @@
 'use client';
 import { Menu } from '@headlessui/react';
 import { RiArrowDropdownLine } from './RiArrowDropdownLine';
+const gCalLink =
+  "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Amber's+Bachelorette!&dates=20250410/20250415&details=Join+us+for+Amber's+bachelorette+celebration!&location=Tulum,+Mexico";
 
 export default function CalendarDropdown() {
   return (
@@ -18,7 +20,7 @@ export default function CalendarDropdown() {
             <Menu.Item>
               {({ active }) => (
                 <a
-                  href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Amber+%26+Nathan's+Wedding&dates=20250621T230000Z/20250622T050000Z&details=Celebrate+Amber+and+Nathan's+wedding+at+Maple+Falls,+WA!&location=Maple+Falls,+WA"
+                  href={gCalLink}
                   target="_blank"
                   rel="noferrer"
                   className={`${
@@ -33,8 +35,8 @@ export default function CalendarDropdown() {
             <Menu.Item>
               {({ active }) => (
                 <a
-                  href="wedding.ics"
-                  download="Amber_and_Nathan_Wedding.ics"
+                  href="bach.ics"
+                  download="Ambers_Bachelorette.ics"
                   className={`${
                     active ? 'bg-sage/40 text-white' : 'text-sage'
                   } block px-4 py-2 text-sm`}
